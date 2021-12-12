@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Crypto Wallet API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jay Malde",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "eth-crypto": "^2.1.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "firebase": "^7.20.0",
+    "moment": "^2.29.1",
+    "secp256k1": "^4.0.2",
+    "web3": "^1.6.1"
+  }
+}
