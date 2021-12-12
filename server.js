@@ -20,9 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const buildPath = path.join(__dirname, '..', 'build');
 app.use(express.static(buildPath));
 
-app.get('/api/getBalance', function(req, res) {
-  res.send("Server is Working")
-}
+app.get('/', (req, res) => { res.send('Hello from Express!')})
 
 app.get('/api/getBalance', function(req, res) {
   let address = req.query.address;
