@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Crypto Wallet API",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Jay Malde",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "firebase": "^7.20.0",
     "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
     "secp256k1": "^4.0.2",
     "web3": "^1.6.1"
   }
