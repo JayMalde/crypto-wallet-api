@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-const etherscanAPIKey = process.env.ETHERSCAN_API_KEY || EYGDUDZDT2WY95BJDYG8QWWNZJBIERAIGQ;
-const infuraAPIKey = process.env.INFURA_API_KEY || c99cf71942d5476681eaa4f02d39bb53;
+const etherscanAPIKey = process.env.ETHERSCAN_API_KEY || "EYGDUDZDT2WY95BJDYG8QWWNZJBIERAIGQ";
+const infuraAPIKey = process.env.INFURA_API_KEY || "c99cf71942d5476681eaa4f02d39bb53";
 const port = process.env.REACT_APP_BACKEND_PORT || 5000;
 var path = require("path");
 const express = require('express');
